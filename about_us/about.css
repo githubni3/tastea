@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+#knowUs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+  min-height: 25vh;
+  opacity: 0.9;
+  background: url("./bgAbout.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#about{
+  background: url("./aboutImg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+}
+#about_description{
+  width: 80vw;
+  margin: auto;
+  padding: 2rem 0;
+}
+#des_para2{
+  display: none;
+}
+
+#founders{
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.founder{
+  margin: 1rem;
+  display: flex;
+}
+.founder img{
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  margin-right: 1rem;
+}
+.founder_about{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.founder_name{
+  font-size: 1.5rem;
+  font-weight: bold;
+}

@@ -1,0 +1,45 @@
+@media screen and (max-width: 767px) {
+  #knowUs{
+    min-height: 25vh;
+    font-size: 2.5rem;
+  }  
+  #about_description,
+  #founders {
+    width: 90vw;
+  }
+  .founder img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #about_description,
+  #founders {
+    width: 90vw;
+  }
+  .founder{
+    margin: 0;
+  }
+  .founder_about{
+    padding: 1rem;
+  }
+  .founder img {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media screen and (min-width: 280px) and (max-width:540px){
+  #knowUs{
+    min-height: 15vh;
+    font-size: 1.8rem;
+  }  
+  .founder {
+        flex-direction: column;
+    }
+    .founder img{
+        margin: auto;
+    }
+
+    
+}
