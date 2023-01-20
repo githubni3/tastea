@@ -91,6 +91,10 @@ html {
 #navbarSupportedContent a:hover {
   color: var(--primary-color);
 }
+.dropdown-menu a:active {
+  color: #000;
+  background-color: #62042a48;
+}
 #whatsapp {
   color: green;
 }
