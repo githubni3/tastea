@@ -190,62 +190,68 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
   }
-
 }
 
 /* STAY CONNECTED  */
 @media screen and (min-width: 768px) {
-  #first-col{
+  #first-col {
     text-align: center;
   }
 }
 
 @media screen and (max-width: 985px) and (min-width: 768px) {
-  #emailForm{
+  #emailForm {
     width: 70%;
   }
 }
 @media screen and (max-width: 768px) {
-  #stay-connected{
+  #stay-connected {
     font-size: 25px;
   }
-  #with_us{
+  #with_us {
     font-size: 25px;
   }
-  #newsletter{
+  #newsletter {
     font-size: 18px;
     margin-top: 13px;
   }
-  #email::placeholder{
+  #email::placeholder {
     font-size: 12px;
   }
-  
 }
-@media screen and (max-width: 450px){
-  #emailForm{
+@media screen and (max-width: 450px) {
+  #emailForm {
     width: 80%;
   }
 }
-@media screen and (max-width: 369px){
-  #emailForm{
+@media screen and (max-width: 369px) {
+  #emailForm {
     width: 70vw;
   }
-  #mailbox{
+  #mailbox {
     font-size: 0.85rem;
   }
-  #email,#submit_button,#submit_button>img{
+  #email,
+  #submit_button,
+  #submit_button > img {
     margin: 0;
     padding: 0;
   }
-  #email{
+  #email {
     padding-left: 5px;
   }
-  #submit_button>img{
+  #submit_button > img {
     width: 1.2rem;
   }
 }
 
 /* FOOTER */
+@media screen and (max-width: 540px) {
+  #footer>ol,
+  ul {
+    padding-left: 1rem;
+  }
+}
 @media screen and (max-width: 408px) and (min-width: 341px) {
   .sm-fontsize {
     font-size: 14px;
