@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 #business_heading{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  font-style: italic;
-  font-family: 'Roboto', sans-serif;
-  text-decoration: underline;
-  color: white;
-  min-height: 25vh;
-  opacity: 0.9;
-  background: url("./businessImg2.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    color: white;
+    min-height: 25vh;
+    opacity: 0.9;
+    background: url("./businessImg2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #business_text{
